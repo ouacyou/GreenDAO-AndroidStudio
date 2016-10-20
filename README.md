@@ -1,0 +1,2 @@
+# GreenDAO-AndroidStudio
+在android studio下重新对greenDAO进行编写，了解as下如何配置及操作greenDAO以及编码过程。
