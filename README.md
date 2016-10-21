@@ -56,7 +56,7 @@ new DaoGenerator().generateAll(schema,"your file path");//把生成的文件设�
  查询(批量查询)
  ```
  QueryBuilder<Staff> qb = staffDao.queryBuilder();
-	qb.orderDesc(Properties.Id);//倒序
+ qb.orderDesc(Properties.Id);//倒序
   ```
   删除
   ```
@@ -64,5 +64,5 @@ new DaoGenerator().generateAll(schema,"your file path");//把生成的文件设�
   
   //你要开除某个人按照ID
   QueryBuilder<Staff> qb = staffDao.queryBuilder();
-		DeleteQuery<Staff> dq = qb.where(Properties.id.eq(no)).buildDelete();
+  DeleteQuery<Staff> dq = qb.where(Properties.id.eq(no)).buildDelete();
   ```
